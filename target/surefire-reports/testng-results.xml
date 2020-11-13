@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-13T14:46:29Z" name="Carbonite Test Suite" finished-at="2020-11-13T14:46:46Z" duration-ms="17826">
+    <groups>
+    </groups>
+    <test started-at="2020-11-13T14:46:29Z" name="SignupPage Validation" finished-at="2020-11-13T14:46:46Z" duration-ms="17826">
+      <class name="validations.CarboniteSignupPageTest">
+        <test-method is-config="true" signature="setDefaultParamsUI()[pri:0, instance:validations.CarboniteSignupPageTest@7e057f43]" started-at="2020-11-13T09:46:29Z" name="setDefaultParamsUI" finished-at="2020-11-13T09:46:29Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDefaultParamsUI -->
+        <test-method is-config="true" signature="intializeTest(java.lang.reflect.Method)[pri:0, instance:validations.CarboniteSignupPageTest@7e057f43]" started-at="2020-11-13T09:46:29Z" name="intializeTest" finished-at="2020-11-13T09:46:29Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void validations.CarboniteSignupPageTest.TC3_ValidateSuccessfulSignup(java.util.Map) throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeTest -->
+        <test-method signature="TC3_ValidateSuccessfulSignup(java.util.Map)[pri:0, instance:validations.CarboniteSignupPageTest@7e057f43]" started-at="2020-11-13T09:46:29Z" name="TC3_ValidateSuccessfulSignup" data-provider="getData" finished-at="2020-11-13T09:46:46Z" duration-ms="16981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TCName=TC3_ValidateSuccessfulSignup, Test_Description=Validate successful sign up to Carbonite, UserId=', URL=https://www.carbonite.com/backup-software/safe-personal-trial/, Browser=Chrome, Password=Carbonite1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_ValidateSuccessfulSignup -->
+        <test-method is-config="true" signature="endTest(java.lang.reflect.Method)[pri:0, instance:validations.CarboniteSignupPageTest@7e057f43]" started-at="2020-11-13T09:46:46Z" name="endTest" finished-at="2020-11-13T09:46:46Z" duration-ms="274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void validations.CarboniteSignupPageTest.TC3_ValidateSuccessfulSignup(java.util.Map) throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- validations.CarboniteSignupPageTest -->
+    </test> <!-- SignupPage Validation -->
+  </suite> <!-- Carbonite Test Suite -->
+</testng-results>
